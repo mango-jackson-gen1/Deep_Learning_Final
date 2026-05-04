@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+
+# Data (large raw files)
+data/raw/
+data/fma_small/
+data/fma_metadata/
+data/fma_2000_tracks/
+fma_2000_tracks/
+
+# Models
+models/*.pt
+models/*.ckpt
+models/*.bin
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# AI Tools
+.claude/
+.anthropic/
+
+# Environment
+.env
